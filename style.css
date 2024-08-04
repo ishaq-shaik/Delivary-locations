@@ -160,6 +160,7 @@ font-family: Inter;
 font-size: 28px;
 font-weight: 600;
 border: none;
+cursor: pointer;
 /* line-height: 28px; */
 
 }
@@ -198,6 +199,7 @@ border: none;
     left: 80%;
     /* color: #000000; */
     font-weight: bold;
+    cursor: pointer;
     
 }
 h2{
