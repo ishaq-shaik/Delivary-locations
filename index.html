@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivary-status</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="main-div">
+        <div class="card">
+            <div class="head-container">
+                <h1>Checkout</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis 
+                    vitae curabitur amet, fermentum lorem. </p>
+            </div>
+
+
+            <form id="form" class="form-card">
+                <div class="fn-ln">
+
+                    <fieldset class="name">
+                        <legend>first name<sup>*</sup></legend>
+                        
+                        
+                        <input class="names" type="text" id="fname" name="fName" placeholder="Your name" required>
+                    </fieldset>
+                    <fieldset class="name">
+                        <legend>last name<sup>*</sup></legend>
+                        
+                        
+                        <input class="names" type="text" id="lname" name="lName" placeholder="Your last name" required>
+                    </fieldset>
+                    
+
+                </div>
+                <fieldset class="email">
+                        <legend>Email<sup>*</sup></legend>
+                        
+                        
+                        <input class="names" type="email" id="fname" name="email" placeholder="yourmail@gmail.com" required>
+                        <i class="fa-regular fa-envelope"></i>
+
+
+                </fieldset>
+                <fieldset class="pin">
+                        <legend>Pincode<sup>*</sup></legend>
+                        
+                        
+                        <input class="names" type="number" id="fname" name="pincode" placeholder="123456" required>
+                </fieldset>
+                
+
+            <!-- </form> -->
+                <div class="checkbox">
+                        <input type="checkbox" checked/>
+                        <p>Stay updated with our latest products, exclusive offers, and special promotions by opting 
+                            in to receive marketing emails from us. You can unsubscribe at any time.</p>
+
+                </div>
+                <button class="btn" id="btn" type="submit">Enter</button>
+            </form>
+            <div id="pop-up" class="pop-up show">
+                <button id="close" class="btn-icon">Close</button>
+                <h2>User Details</h2>
+                <div id="user-data-div"></div>
+                <h2>Delivary Locations</h2>
+                <div id="delivary-data-div"></div>
+                
+            
+            </div>
+
+        </div>
+        
+        
+
+
+    </div>
+<script src="script.js" ></script>
+</body>
+</html>
