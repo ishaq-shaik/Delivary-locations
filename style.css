@@ -29,6 +29,7 @@
     max-width: 380px;
     height: 78px;
     gap: 5px;
+    /* margin: 0px; */
     
    
 }
@@ -62,7 +63,7 @@
 }
 .form-card{
     max-width: 380px;
-    /* max-height: 259px; */
+    /* height: 100%; */
     gap: 25px;
     opacity: 0px;
     
@@ -73,7 +74,7 @@
 }
 .fn-ln{
     max-width: 100%;
-    max-height: 46px;
+    min-height: 46px;
     gap:25px;
     display: flex;
     justify-content: space-between;
@@ -81,7 +82,8 @@
 }
 .name{
     max-width: 177.5px;
-    height: 46px;
+    flex-grow: 1;
+    min-height: 46px;
     gap: 4px;
     opacity: 0px;
     border-radius: 8px;
@@ -98,8 +100,12 @@
     border: none;
     outline: none;
 }
+legend{
+    max-width: 100%;
+}
 sup{
     color: red;
+    
 }
 
 .email{
@@ -162,6 +168,7 @@ font-weight: 600;
 border: none;
 cursor: pointer;
 /* line-height: 28px; */
+margin-top: 20px;
 
 }
 
