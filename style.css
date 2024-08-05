@@ -139,7 +139,7 @@ sup{
     /* justify-content: flex-start; */
     align-items: flex-start;
     max-width: 380px;
-    height: 84px;
+    min-height: 84px;
     gap: 0px;
     border-radius: 2px 0px 0px 0px;
     opacity: 0px;
